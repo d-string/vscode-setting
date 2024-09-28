@@ -1,0 +1,49 @@
+{
+  /** ------------ Workbench Settings ------------ **/
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#0d1117"
+  },
+
+  /** ------------ Editor Settings ------------ **/
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.formatOnSave": true,
+  "editor.cursorStyle": "block",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  /** ------------ Formatter Settings------------ **/
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /** ------------ Terminal Settings------------ **/
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.smoothScrolling": true,
+
+  /** ------------ Additional Configurations ------------ **/
+  "vscode_custom_css.imports": [
+    "file:///Users/string/.vscode/vscode-custom/style.css",
+    "file:///Users/string/.vscode/vscode-custom/script.js"
+  ],
+  "explorer.compactFolders": false,
+  "material-icon-theme.folders.theme": "none"
+}
